@@ -34,7 +34,7 @@ The XGBoost classifier had the best performance with AUC score of almost .94. XG
 &emsp;- Total_relationship_count was another important variable. <br>
 &emsp;- It would be important to proactively reach out to those customers to improve a personalize customer experience.<br>
 &emsp;- Bank could collect more information about the customers as how long they are with the service <br>
-&emsp;- Collect data  based on  satisfaction survey about credit services <br>
+&emsp;- Collect data  based on  satisfaction survey about credit card services <br>
 
 
 
