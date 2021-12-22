@@ -1,2 +1,3 @@
 ### Face Mask detection 
 In this project, a face mask detection model that can accurately detect whether a person is wearing a mask or not is proposed.
+The original dataset used in this project was from Kaggle Dataset. Data set consists of 7553 images with 3(RGB) channels in 2 folders as with_mask and without_mask. Images are named as label with_mask and without_mask. There are 3725 images of faces with_mask and 3828 images of faces without mask. The image data input parameters are the number of images, image height, image width, number of channels, and the number of levels per pixel. Typically, we have 3 channels of data corresponding to the colors Red, Green, Blue (RGB) Pixel levels are usually [0,255].
