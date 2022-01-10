@@ -5,3 +5,5 @@ The original dataset used in this project was from Kaggle. Data set consists of 
 The image dimensions were 350 * 525, and the number of channels were 3(RGB). The below picture was randomly selected image from the data set. The image needed to be scaled down 
 before building a model.
 ![image](https://user-images.githubusercontent.com/59039411/147049582-5c5ac28b-1507-4b28-b14d-288f2b4a2c13.png)
+## Data Preprocessing 
+The image dataset needed to be scaled to a standard size of 224 * 224 before modeling. The mean and standard deviation of pixel values were normalized to 0 and 1. The normalization helps the deep leaning models perform better as it helps to get data within a range and reduces the skewness since it’s centered around 0. This helps learn faster and better. The number of color channels were not reduced, and the shape of tensor was (3,224,224). The channel dimension was left as 3 channels for the input layer. The final tensor will be of the form (C * H * W). Along with this, a scaling operation is also performed from the range of 0–255 to 0–1. The dataset was split into training set with 80% of dataset and testing set with 20% of dataset.
